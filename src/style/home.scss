@@ -1,0 +1,27 @@
+
+body {
+  margin:0;
+  padding:0;
+  background-color: rgb(48, 47, 47) !important;
+  height: 0px !important
+}
+.home{
+  margin-top: 11em;
+  display: flex;
+  justify-content: center;
+}
+.btn-home{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 50%;
+}
+button{
+  margin-left: 10px !important;
+  color: rgb(48, 47, 47) !important;
+  border: #00D8FF !important;
+  background-color: #00D8FF !important;
+  font-weight: bold !important;
+}
