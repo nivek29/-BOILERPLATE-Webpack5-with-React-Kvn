@@ -1,7 +1,7 @@
 {
-  "name": "react17-webpack5-configuration",
-  "version": "1.0.0",
-  "description": "",
+  "name": "reacttemplate",
+  "version": "0.0.1",
+  "description": "Boiler plate ",
   "main": "index.js",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
