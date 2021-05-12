@@ -8,7 +8,7 @@ const path = require("path");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "../dist"),
+    path: path.resolve(__dirname, "../public"),
     filename: "[name].[contenthash].js",
     publicPath: ""
   },
@@ -41,7 +41,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: "./public/index.html"
+      template: "./template/index.html"
     })
   ]
 };
