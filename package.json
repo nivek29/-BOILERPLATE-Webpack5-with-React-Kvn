@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@testing-library/jest-dom": "^5.12.0",
     "@types/jest": "^26.0.23",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
     "babel-eslint": "^10.1.0",
@@ -28,6 +29,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.2.4",
     "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
     "eslint": "^7.25.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-react": "^7.23.2",
@@ -66,7 +68,8 @@
     "build": "webpack --config config/webpack.prod.js",
     "start": "webpack serve --config config/webpack.dev.js",
     "linter": "eslint ./src/index.js",
-    "test": "jest"
+    "test": "jest",
+    "testUpdate": "test -- -u"
   },
   "keywords": [],
   "author": "",

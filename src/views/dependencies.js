@@ -13,6 +13,7 @@ export const Dependencies = () => {
 					for unit tests and design components.
 				</p>
 			</div>
+			<aside></aside>
 			<div className="list-dependencies-dev">
 				<p className="parr-dependencies-dev">Develop dependencies</p>
 				<ListDev></ListDev>

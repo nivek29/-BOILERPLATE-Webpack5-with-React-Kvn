@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Dependencies debe encontrar que existe un aside vacio 1`] = `
+<Fragment>
+  <div
+    className="list-dependencies"
+  >
+    <p
+      className="parr-dependencies"
+    >
+      React Boiler-Plate custom , contains the necessary tools for development with React. In addition to a set of extra tools for unit tests and design components.
+    </p>
+  </div>
+  <aside />
+  <div
+    className="list-dependencies-dev"
+  >
+    <p
+      className="parr-dependencies-dev"
+    >
+      Develop dependencies
+    </p>
+    <ListDev />
+  </div>
+  <div
+    className="list-dependencies-prod"
+  >
+    <p
+      className="parr-dependencies-prod"
+    >
+      Production dependencies
+    </p>
+    <ListProd />
+  </div>
+</Fragment>
+`;

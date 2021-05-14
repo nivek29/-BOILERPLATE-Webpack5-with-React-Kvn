@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en home  se esta renderizando el componente home 1`] = `
+<Fragment>
+  <div
+    className="home"
+  >
+    <img
+      src={Object {}}
+    />
+  </div>
+  <div
+    className="btn-home"
+  >
+    <Link
+      to="/dependencies"
+    >
+      <Button
+        shape="round"
+        size="large"
+        type="primary"
+      >
+        Dependencies
+      </Button>
+    </Link>
+    <Button
+      shape="round"
+      size="large"
+      type="primary"
+    >
+      Examples
+    </Button>
+    <Button
+      shape="round"
+      size="large"
+      type="primary"
+    >
+      Npm´s
+    </Button>
+  </div>
+</Fragment>
+`;

@@ -10,10 +10,11 @@ export const Layout = () => {
 			<Router>
 				<Switch>
 					<Route exact path="/">
+						<Dependencies />
 						<Home></Home>
 					</Route>
 					<Route exact path="/dependencies">
-						<Dependencies />
+						
 					</Route>
 				</Switch>
 			</Router>
