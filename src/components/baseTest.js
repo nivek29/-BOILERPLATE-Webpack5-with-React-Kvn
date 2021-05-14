@@ -3,7 +3,7 @@ const nombre   = 'Fernando';
 const apellido = 'Herrera';
 
 
-// const nombreCompleto = nombre + ' ' + apellido
+// const nombreCompleto = nombre + ' ' + apellidos
 const nombreCompleto = `${ nombre } ${ apellido }`;
 
 // console.log( nombreCompleto );
